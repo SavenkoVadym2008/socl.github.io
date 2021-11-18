@@ -1,6 +1,6 @@
 h1 {
     font-family: 'Segoe UI';
-    margin: 45px;
+    margin: 0px;
     font-size: 50px;
 }
 
@@ -15,10 +15,6 @@ div {
 	background-image: url('images/wallpaper.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-h1 {
-    margin: 0px;
 }
 
 h3 {
@@ -138,4 +134,46 @@ li {
 	box-sizing: border-box;
 	border-top: 1px solid #ffffff;
 	color: white;
+}
+
+.ie7 #wallpaper {
+	padding: 10px;
+	height: 66px;
+	background-image: url('images/wallpaper.png');
+}
+
+.ie7 h1 {
+	font-family: 'Segoe UI';
+    	margin: 0px;
+    	font-size: 50px;
+	font-color:
+	color: white;
+}
+
+.ie7 #navigator {
+    height: 25px;
+    background: #0f548d;
+}
+
+.ie7 #social {
+    height: 25px;
+    background: #2673a1
+}
+
+.ie7 #contacts {
+    height: 25px;
+    background: #2673a1
+}
+
+.ie7 #messenger {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	background: #2673a1
+}
+
+.ie7 a:hover {
+    background: #5ca4bc;
 }
