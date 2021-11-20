@@ -115,9 +115,9 @@ li {
 .sub-menu {
 	display: none;
 	position: absolute;
-	top: 25px;
+	top: 2px;
 	left: 0px;
-	width: 200px;
+	width: 100px;
 	background: #4f69fa;
 }
 
