@@ -1,0 +1,178 @@
+h1 {
+	font-family: 'Segoe UI';
+	margin: 0px;
+	font-size: 50px;
+}
+
+div {
+	text-align: left;
+}
+
+#wallpaper {
+	padding: 10px;
+	vertical-align: middle;
+	height: 66px;
+	background-image: url('images/wallpaper.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h3 {
+	font-family: 'Segoe UI';
+}
+
+#navigator {
+	height: 25px;
+	background: #005bff;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Segoe UI';
+	color: white;
+}
+
+a:hover {
+	background: #6279ff
+}
+
+h2 {
+	font-family: 'Segoe UI';
+}
+
+h3 {
+	font-family: 'Segoe UI';
+}
+
+p {
+	font-family: 'Segoe UI';
+}
+
+#social {
+	height: 25px;
+	background: #4f69fa
+}
+
+#contacts {
+	height: 25px;
+	background: #4f69fa
+}
+
+li {
+	font-family: 'Segoe UI';
+}
+
+
+#messenger {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	background: #4f69fa
+}
+
+	#messenger > ul {
+		position: relative;
+		display: block;
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+		height: auto;
+		list-style: none;
+	}
+
+		#messenger > ul::after {
+			display: block;
+			width: 100%;
+			height: 0px;
+			clear: both;
+			content: " ";
+		}
+
+		#messenger > ul li {
+			position: relative;
+			display: block;
+			float: left;
+			width: auto;
+			height: auto;
+		}
+
+			#messenger > ul li a {
+				display: block;
+				font-size: 14px;
+				line-height: 1.3em;
+				text-decoration: none;
+				height: 25px;
+				box-sizing: border-box;
+				color: white;
+			}
+
+.sub-menu {
+	display: none;
+	position: absolute;
+	top: 25px;
+	left: 0px;
+	width: 200px;
+	background: #4f69fa;
+}
+
+#messenger ul li:hover .sub-menu {
+	display: block;
+}
+
+.sub-menu li {
+	float: none;
+	width: 100px;
+}
+
+	.sub-menu li a {
+		display: block;
+		text-transform: none;
+		height: auto;
+		padding: 7px 25px;
+		box-sizing: border-box;
+		border-top: 1px solid #ffffff;
+		color: white;
+	}
+
+.ie7 #wallpaper {
+	padding: 10px;
+	height: 66px;
+	background-image: url('images/wallpaper.png');
+}
+
+.ie7 h1 {
+	font-family: 'Segoe UI';
+	margin: 0px;
+	font-size: 50px;
+	color: white;
+}
+
+.ie7 #navigator {
+	height: 25px;
+	background: #0f548d;
+}
+
+.ie7 #social {
+	height: 25px;
+	background: #2673a1
+}
+
+.ie7 #contacts {
+	height: 25px;
+	background: #2673a1
+}
+
+.ie7 #messenger {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	background: #2673a1
+}
+
+.ie7 a:hover {
+	background: #5ca4bc;
+}
